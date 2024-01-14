@@ -11,8 +11,8 @@ const Banner = () => {
       <div className="flex items-center justify-center gap-12">
         <img width={150} src={computer} alt="" />
         <div>
-          <p className="text-white text-5xl">GATE</p>
-          <p className="text-white text-2xl ml-3 my-1">RESULTS</p>
+          <p className="text-white text-5xl font-medium">GATE</p>
+          <p className="text-white text-2xl ml-3 my-1 font-medium">RESULTS</p>
           <div className="flex ml-1">
             <p className="banner-line"></p>
             <p className="banner-year text-black">2022</p>

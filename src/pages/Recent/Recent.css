@@ -1,0 +1,16 @@
+.all-catagory {
+    width: 50px;
+    text-align: center;
+    border: 1px solid blue;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+}
+
+.exam-catagories {
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 15px;
+    color: blue;
+}

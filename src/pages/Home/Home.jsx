@@ -1,5 +1,7 @@
 import Banner from "../Banner/Banner";
 import Header from "../Header/Header";
+import Recent from "../Recent/Recent";
+import Recommended from "../Recommended/Recommended";
 
 
 const Home = () => {
@@ -7,6 +9,8 @@ const Home = () => {
         <>
         <Header></Header>
         <Banner></Banner>
+        <Recommended></Recommended>
+        <Recent></Recent>
         </>
     );
 };

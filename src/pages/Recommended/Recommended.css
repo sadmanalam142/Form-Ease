@@ -1,0 +1,13 @@
+.exam-section {
+    width: 500px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(0.2, 0.2, 0.2, 0.2);
+}
+
+.subject-catagory {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
