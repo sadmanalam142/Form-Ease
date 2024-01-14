@@ -6,21 +6,21 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
-    <div className="banner">
-      <IoIosArrowBack></IoIosArrowBack>
+    <div className="banner flex items-center justify-between">
+      <IoIosArrowBack className="arrow"></IoIosArrowBack>
       <div className="flex items-center justify-center gap-12">
-        <img width={100} src={computer} alt="" />
+        <img width={150} src={computer} alt="" />
         <div>
-          <p className="text-white">GATE</p>
-          <p className="text-white">RESULTS</p>
-          <div>
-            <p className="banner-line text-white"></p>
-            <p className="banner-year text-white">2022</p>
-            <p className="banner-line text-white"></p>
+          <p className="text-white text-5xl">GATE</p>
+          <p className="text-white text-2xl ml-3 my-1">RESULTS</p>
+          <div className="flex ml-1">
+            <p className="banner-line"></p>
+            <p className="banner-year text-black">2022</p>
+            <p className="banner-line"></p>
           </div>
         </div>
       </div>
-      <IoIosArrowForward></IoIosArrowForward>
+      <IoIosArrowForward className="arrow"></IoIosArrowForward>
     </div>
   );
 };
