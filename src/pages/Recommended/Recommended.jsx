@@ -27,6 +27,7 @@ const Recommended = () => {
             </div>
             <FiAward className="text-blue-600 size-8 mb-8"></FiAward>
           </div>
+          <p className="section-line"></p>
           <div className="flex items-center justify-center gap-3 mt-2">
             <FaPeopleGroup className="size-8"></FaPeopleGroup>
             <p className="font-medium">More than 20 Lakhs</p>
@@ -57,6 +58,7 @@ const Recommended = () => {
             </div>
             <FiAward className="text-blue-600 size-8 mb-8"></FiAward>
           </div>
+          <p className="section-line"></p>
           <div className="flex items-center justify-center gap-3 mt-2">
             <FaPeopleGroup className="size-8"></FaPeopleGroup>
             <p className="font-medium">More than 15 Lakhs</p>
@@ -86,6 +88,7 @@ const Recommended = () => {
             </div>
             <FiAward className="text-blue-600 size-8 mb-8"></FiAward>
           </div>
+          <p className="section-line"></p>
           <div className="flex items-center justify-center gap-3 mt-2">
             <FaPeopleGroup className="size-8"></FaPeopleGroup>
             <p className="font-medium">More than 10 Lakhs</p>
