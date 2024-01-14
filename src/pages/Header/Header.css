@@ -1,0 +1,17 @@
+.title-letter {
+    color: rgb(218, 135, 160);
+}
+
+.logo-line {
+    width: 45px;
+    border-top: 2px solid black;
+    margin-top: 8px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.search-box {
+    border: 1px solid rgb(82, 76, 76);
+    border-radius: 20px;
+    padding: 10px;
+}
